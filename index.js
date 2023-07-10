@@ -1,11 +1,38 @@
+const canvas = document.querySelector('canvas')
+
+canvas.width = window.innerWidth
+canvas.height = window.innerHeight
+canvas.style.backgroundColor = 'blue'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // let circleX = 100
- function setup() {
-    createCanvas(600, 600)
-    background(0)
+//  function setup() {
+//     createCanvas(600, 600)
+//     background(0)
     // createElement('h1', 'love p5js')
     // print('hello')
-}
+// }
 // function mousePressed() {
 //     circleX = 0
 // }
@@ -40,11 +67,11 @@
 //     }, 100)
 
 // }
-function draw() {
-    noStroke()
-    fill(255)
-    circle(mouseX, mouseY, 15)
-}
-function mousePressed() {
-    background(0)
-}
+// function draw() {
+//     noStroke()
+//     fill(255)
+//     circle(mouseX, mouseY, 15)
+// }
+// function mousePressed() {
+//     background(0)
+// }
