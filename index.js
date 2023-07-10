@@ -1,5 +1,6 @@
 function setup() {
-    createCanvas(window.innerWidth, window.innerHeight)
+    // createCanvas(window.innerWidth, window.innerHeight)
+    createElement('h1', 'love p5js')
 }
 
 function draw() {
