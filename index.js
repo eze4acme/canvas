@@ -4,8 +4,12 @@ canvas.width = window.innerWidth
 canvas.height = window.innerHeight
 canvas.style.backgroundColor = 'blue'
 
-
-
+const c = canvas.getContext('2d')
+setInterval(() => {
+const rand = Math.random() * window.innerWidth
+let x = rand
+c.fillRect(x += 10, rand, 200, 200)
+}, 100)
 
 
 
